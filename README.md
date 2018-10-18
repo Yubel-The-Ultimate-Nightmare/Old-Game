@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Old-Game home</title>
 </head>
 <body>
 <img src= "Old-game-Home.png" background-size:Cover usemap="#map"/>

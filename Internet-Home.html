@@ -2,17 +2,25 @@
 <html>
 <head>
 <title>Old-Game home</title>
-<style>
-body
-{
-    margin:0;
-    padding:0;
-    background: #000 url(Old-game-Home.png) center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-}
-</style>
 </head>
 <body>
+	<div class="bg">
+        <img src="Old-game-Home.png">
+    </div>
 </body>
 </html>
+
+<style>
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+    </style>
